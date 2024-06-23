@@ -28,6 +28,85 @@
   color: #61dafb;
 }
 
+.boton-login{
+  padding: 0.5rem;
+  border: none;
+  background-color: #2b8a8a;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 1vh;
+}
+
+.boton-login:hover {
+  background-color: #365b6d;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.auth-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.auth-box h2 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.auth-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-box input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth-box button {
+  padding: 0.5rem;
+  border: none;
+  background-color: #2b8a8a;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.auth-box button:hover {
+  background-color: #365b6d;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
